@@ -1,30 +1,73 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head><title>My library </title>
-    <meta charset="utf-8"/> 
+<?php
+require('header.php')
+?>
+ </br> 
+<div class="row">
+    <div class="col s4">.</div>
+  <form class="col s4 z-depth-2" action="" method="">
+    <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label for="search"><i class="material-icons">search</i> Search Books</label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+      </div>
 
-<link href="css/fonts/google-material/material-icons.css" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<body>
-        <div class="navbar-fixed">
- 	    
- 	    <nav>
-           <div class="nav-wrapper indigo darken-1"> 
-		    <a href="#" class="brand-logo left">Logo</a>
-		        <ul id="nav-mobile" class="right indigo darken-1">
-	               <li><a href="home.php"><i class="material-icons left">home</i>Home</a></li>
-                    <li><a href="history.php"><i class="material-icons left">history</i>History</a></li>
-                    <li><a href="about.php">About us</a></li>
-                     <li> <a href="contact.php"><i class="material-icons left">contacts</i>Contact us</a></li>
-                     <li><a href="sign.php">login</a></li>
-				</ul>
-            </div>
-		</nav>	  
-	</div>
+</br>
+</br>
+<h5 class="center-align">Reserve And Borrow Books</h5>
+ 
+  <div class="row">
+    <div class="col s3">.</div>
+    
+  <form class="col s6 z-depth-2" action="" method="">
+      <div class="row">
+      <div class="col s2">.</div>
+        <div class="input-field col s6">
+          <input value="" id="name" type="text" class="validate">
+          <label  class="active" for="name">Full Name</label>
+        </div>
+    </div>
+    
+    
+     <div class="row">
+     <div class="col s2">.</div>
+    <div class="input-field col s6">
+          <input  value="" id="department" type="text" class="validate">
+          <label  class="active" for="department">Department</label>
+        </div>
+      </div>
+    
+         <div class="row">
+         <div class="col s2">.</div>
+    <div class="input-field col s6">
+          <input  value="" id="faculty" type="text" class="validate">
+          <label  class="active" for="faculty">Faculty</label>
+        </div>
+      </div>
 
+      <div class="row">
+     <div class="col s1">.</div>
+    
+      <div class="input-field col s3">
+    <button class=" btn indigo darken-1" type="submit" name="action">Reserve
+        <!-- <i class="material-icons right">send</i>-->
+         </button>
+          </div>&nbsp;&nbsp;&nbsp;
+         <div class="col s3">.</div>
+         <div class="input-field col s3">
    
-   
+          <button class=" btn indigo darken-1" type="submit" name="action">Borrow
+        <!-- <i class="material-icons right">send</i>-->
+         </button>
+          </div>
+      </div>
+      </form>
+      </div>
+
+
+    
    
    
    
