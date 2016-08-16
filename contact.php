@@ -11,7 +11,7 @@ require('header.php')
 				   <div class="input-field col s4">
 				     <i class="material-icons prefix">account_circle</i>
 					 <input value="" id="icon_prefix" type="text" class="validate">
-					 <label  class="active"for="icon_prefix">Full Name</label>
+					 <label  class="active"for="icon_prefix">Name</label>
 				    </div>
 	
                       <div class="input-field col s3">

@@ -3,7 +3,7 @@ require('header.php');
 ?>
 	
 	<div>
-	   <img src="css/images/abt.jpg" width="100%" height="450px">
+	   <img src="css/images/pi.jpg" width="100%" height="450px">
 	 </div>
 	  </br>
 	  <div class="row">

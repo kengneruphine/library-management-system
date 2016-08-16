@@ -15,7 +15,7 @@ require('header.php')
       <div class="col s2">.</div>
         <div class="input-field col s6">
           <input value="" id="name" type="text" class="validate">
-          <label  class="active" for="name">Full Name</label>
+          <label  class="active" for="name">username</label>
         </div>
 		</div>
 		
@@ -90,10 +90,15 @@ require('header.php')
       <div class="row">
         <div class="input-field col s6">
           <input value="" id="name" type="text" class="validate">
-          <label  class="active" for="name">Full Name</label>
+          <label  class="active" for="name">first_Name</label>
         </div>
 		</div>
-		
+		<div class="row">
+        <div class="input-field col s6">
+          <input value="" id="name" type="text" class="validate">
+          <label  class="active" for="name">last_Name</label>
+        </div>
+    </div>
 	   <div class="row">
 		<div class="input-field col s6">
           <input value="" id="department" type="text" class="validate">

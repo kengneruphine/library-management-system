@@ -7,9 +7,9 @@ require('header.php');
                  <ul class="slides">
                      <li><img src="css/images/op.jpg" class="z-depth-5"></li>
                      <li><img src="css/images/pt.jpg" class="z-depth-5"></li>
-                     <li><img src="css/images/abt.jpg" class="z-depth-5"></li>
+                     <li><img src="css/images/pi.jpg" class="z-depth-5"></li>
 					            <li><img src="css/images/edu.jpg" class="z-depth-5"></li>
-  
+                      <li><img src="css/images/abt.jpg" class="z-depth-5"></li>
                  </ul>
             </div>
 		</div>
@@ -43,7 +43,7 @@ require('header.php');
                 
          <div class="container">
        <div class="col s4 m4 " style="height : 300px">
-             <h5 class="center-align">Mentoring</h5>
+             <h5 class="center-align">Mentorings</h5>
           <p style="font-size:20px">I am a very simple card. I am good at containing small bits of information.
           I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
           </p>

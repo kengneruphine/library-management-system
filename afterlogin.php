@@ -26,7 +26,7 @@ require('header.php')
       <div class="col s2">.</div>
         <div class="input-field col s6">
           <input value="" id="name" type="text" class="validate">
-          <label  class="active" for="name">Full Name</label>
+          <label  class="active" for="name">Name</label>
         </div>
     </div>
     
@@ -46,6 +46,24 @@ require('header.php')
           <label  class="active" for="faculty">Faculty</label>
         </div>
       </div>
+
+ <div class="row">
+         <div class="col s2">.</div>
+    <div class="input-field col s6">
+          <input  value="" id="faculty" type="text" class="validate">
+          <label  class="active" for="faculty">Bookname</label>
+        </div>
+      </div>
+        <div class="row">
+     <div class="col s1">.</div>
+    
+      <div class="input-field col s3">
+    <button class=" btn indigo darken-1" type="submit" name="action">ViewBooks
+        <!-- <i class="material-icons right">send</i>-->
+         </button>
+         </div>
+         </div>
+
 
       <div class="row">
      <div class="col s1">.</div>
