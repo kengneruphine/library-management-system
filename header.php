@@ -20,9 +20,8 @@ a:active{
     
      <div class="navbar-fixed">
         <nav>
-        <nav>
            <div class="nav-wrapper indigo darken-1"> 
-            <a href="#" class="brand-logo left"><img src="css/images/l.png" width="100px" height="62px"></a>
+            <a href="#" class="brand-logo left"><img src="css/images/l.png" width="110px" height="65px"></a>
                 <ul id="nav-mobile" class="right indigo darken-1">
                    <li><a href="home.php"><i class="material-icons left">home</i>Home</a></li>
                     <li><a href="history.php"><i class="material-icons left">history</i>History</a></li>
