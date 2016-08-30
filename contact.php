@@ -4,7 +4,7 @@ require('header.php')
 </br>	
        <div class="row">
             	
-               <form ng-app="myApp" class="col s7"  ng-controller="validateCtrl" 
+               <form ng-app="myApp" class="col s7"  ng-controller="validateCtrl" action="conta.php" method="POST"
 name="myForm" novalidate>
 			   
              	<div class="row">
@@ -44,7 +44,7 @@ name="myForm" novalidate>
 				<div class="row">
 					  <div class="input-field col s7">
 				     <i class="material-icons prefix">subtitles</i>
-					 <input value="" id="icon_prefix" type="text" class="validate">
+					 <input value="" id="icon_prefix" type="text" class="validate" name="subject">
 					 <label class="active" for="icon_prefix">Subject</label>
 				    </div>
 				</div>	
@@ -60,8 +60,7 @@ name="myForm" novalidate>
 				    </div>
 					</div>
 			
-                       <Button class=" btn indigo darken-1 col s3 offset-s5" type="submit" ng-disabled="myForm.user.$touched && myForm.user.$invalid ||  
-myForm.email.$touched && myForm.email.$invalid || myForm.phoneNo.$touched && myForm.phoneNo.$invalid" name="action">submit
+                       <Button class=" btn indigo darken-1 col s3 offset-s5" type="submit" ng-disabled="myForm.user.$touched && myForm.user.$invalid ||  myForm.email.$invalid || myForm.phoneNo.$invalid" name="action">submit
                        <i class="material-icons right">send</i></button>					   
               </form>
            	
@@ -104,7 +103,7 @@ myForm.email.$touched && myForm.email.$invalid || myForm.phoneNo.$touched && myF
    </div>
 </br>
 
-
+ 
 
 
 	  
@@ -112,6 +111,16 @@ myForm.email.$touched && myForm.email.$invalid || myForm.phoneNo.$touched && myF
 
 	require('footer.php')
 	?>
+
+   </Button>
+   </form>
+   </div>
+
+s
+
+
+
+
 		
 		 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>	
          <script type="text/javascript" src="js/materialize.min.js"></script>

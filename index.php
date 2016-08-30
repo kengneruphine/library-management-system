@@ -7,7 +7,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style type="text/css">
       html {
-        background: url(css/images/lo.jpg) no-repeat fixed center;
+        background: url(css/images/pi.jpg) no-repeat fixed center;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;

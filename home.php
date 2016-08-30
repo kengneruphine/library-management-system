@@ -26,6 +26,8 @@ require('header.php');
     <div class="col s4 m4" style="height : 300px">
           <h5 class="center-align">Research</h5>
           <p style="font-size:20px"> We offer Online research services allowing patrons to pose questions and get answers from librarians.
+             I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.
           </p>
      </div>
      </div>
@@ -73,18 +75,18 @@ require('header.php');
          </div>
          </div>
 
-         <div class="col s3 m3">
-           <div class="card-panel " style="height : 200px">
-           <a href="new.php"><h5 class="center-align ">School</h5></a>
-           <ul>
-              <li><a href="#"><p class="left-align"><i class="material-icons left">play_arrow</i><h5>Chemistry</h5></p></a></li>
-              <li><a href="#"><p class="left-align"><i class="material-icons left">play_arrow</i><h5>Physics</h5></p></a></li>
-              <li><a href="#"><p class="left-align"><i class="material-icons left">play_arrow</i><h5>Mathematics</h5></p></a></li>
-           
-              
-             </ul> 
-         </div>
-         </div>
+          
+             <div class="col s3 m3">
+               <div class="card-panel " style="height : 200px">
+                  <a href="new.php"><h5 class="center-align ">School</h5></a>
+                <ul>
+                 <li><a href="new.php"><p class="left-align"><i class="material-icons left">play_arrow</i><h5>Chemistry</h5></p></a></li>
+                 <li><a href="new.php"><p class="left-align"><i class="material-icons left">play_arrow</i><h5>Physics</h5></p></a></li>
+                 <li><a href="new.php"><p class="left-align"><i class="material-icons left">play_arrow</i><h5>Mathematics</h5></p></a></li>
+                  </ul> 
+              </div>
+            </div>
+        
 
          <div class="col s3 m3">
            <div class="card-panel " style="height : 200px">

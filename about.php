@@ -3,7 +3,7 @@ require('header.php');
 ?>
 	
 	<div>
-	   <img src="css/images/pi.jpg" width="100%" height="450px">
+	   <img src="css/images/lo.jpg" width="99%" height="600px">
 	 </div>
 	  </br>
 	  <div class="row">
@@ -11,7 +11,7 @@ require('header.php');
 	   <div class="col s3 m3">
         <div class="card-panel">
           <div class="card-image">
-              <img src="css/images/gr.PNG" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              <img src="css/images/gr.PNG" alt="" class="circle responsive-img" style="width:270px;height :280px"> <!-- notice the "circle" class -->
             </div>
             <div class="card-title"> Grace Scintiche</div></br>
               <div class="card-content">
@@ -24,7 +24,7 @@ require('header.php');
         <div class="card-panel">
           <div class="card-image">
            
-              <img src="css/images/k.jpg" alt="" class="circle responsive-img" style="height : 300px"> <!-- notice the "circle" class -->
+              <img src="css/images/k.jpg" alt="" class="circle responsive-img" style="width :270px;height : 280px"> <!-- notice the "circle" class -->
             </div>
               <div class="card-title"> Kerlyn Nkep</div></br>
               <div class="card-content">
@@ -53,7 +53,7 @@ require('header.php');
 	   <div class="col s3 m3" >
         <div class="card-panel">
           <div class="card-image">
-              <img src="css/images/fe.PNG" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              <img src="css/images/fe.PNG" alt="" class="circle responsive-img" width="300px"> <!-- notice the "circle" class -->
             </div>
             <div class="card-title"> Ines Fleur</div></br>
               <div class="card-content">
@@ -66,7 +66,7 @@ require('header.php');
         <div class="card-panel">
           <div class="card-image">
            
-              <img src="css/images/ks.PNG" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              <img src="css/images/ks.PNG" alt="" class="circle responsive-img" width="300px"> <!-- notice the "circle" class -->
             </div>
                <div class="card-title"> Kassandra Maryleine</div></br>
               <div class="card-content">
@@ -78,7 +78,7 @@ require('header.php');
           <div class="col s3 m3">
         <div class="card-panel">
             <div class="card-image">
-              <img src="css/images/di.PNG" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              <img src="css/images/di.PNG" alt="" class="circle responsive-img" width="300px"> <!-- notice the "circle" class -->
             </div>
              <div class="card-title"> Divine Ngocho</div></br>
               <div class="card-content">
